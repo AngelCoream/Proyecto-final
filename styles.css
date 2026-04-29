@@ -66,9 +66,9 @@ body {
 aside {
     margin: 0 20px;
     padding: 20px;
-    height: 78%;
+    height: 85%;
     background-color: #FAEEEA;
-    border-radius: 6px;
+    border-radius: 10px;
     
 }
 
@@ -96,7 +96,7 @@ aside a:hover {
     padding: 10px;
     background-color: #FAEEEA;
     height: 270px;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
 .sectionnn h1 {
