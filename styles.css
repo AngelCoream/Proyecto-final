@@ -19,8 +19,9 @@ header {
     display: flex;
 }
 .header-inner li {
-    padding: 5px;
+    padding: 5px 15px;
     list-style: none;
+    
 }
 
 .header-inner a {
@@ -33,9 +34,17 @@ header {
     text-decoration: underline;
 }
 
+.header-inner img {
+    width: 70px;
+    margin-right: 5px;
+}
+
+.logo {
+    display: flex;
+}
 
 /*
-#AEEEAF
+#FAEEEA
 #F2D0C7
 #E9B0A0
 #E0917B
@@ -50,10 +59,20 @@ header {
 
 
 body {
-    margin-top: 85px;
+    margin-top: 100px;
     margin-left: 300px;
     background-color: #F2D0C7;
     color: #150805;
+
+    font-family: "Quintessential", serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+li {
+    font-size: 20px;
 }
 
 .sidebar {
@@ -91,7 +110,7 @@ aside a:hover {
 
 .sectionnn {
     position: relative;
-    scroll-margin-top: 85px;
+    scroll-margin-top: 100px;
     margin: 30px 15px ;
     padding: 10px;
     background-color: #FAEEEA;
@@ -112,6 +131,7 @@ aside a:hover {
 .sectionnn a{
     text-decoration: underline;
     color: #84351F;
+    font-size: 19px;
 }
 
 .sectionnn a:hover {
