@@ -1,6 +1,8 @@
 
+/*HEADER*/
+
 header {
-    background-color: #E9B0A0;
+    background-color: #e5a594;
     position: fixed;
     width: 100%;
     top: 0;
@@ -48,10 +50,13 @@ header {
     display: flex;
 }
 
+/*PALETA DE COLORES*/
+
 /*
 #FAEEEA
 #F2D0C7
 #E9B0A0
+#e5a594
 #E0917B
 #D77256
 #CF5330
@@ -62,6 +67,7 @@ header {
 #150805
 */
 
+/*CUERPO*/
 
 body {
     margin-top: 100px;
@@ -80,6 +86,12 @@ p {
 li {
     font-size: 20px;
 }
+
+h1 {
+    text-align: center;
+}
+
+/*BARRA LATERAL*/
 
 .sidebar {
     position: fixed;
@@ -113,16 +125,54 @@ aside a:hover {
     text-decoration: underline;
 }
 
-.inicio-section {
+/*----SECCIÓN DE INICIO----*/
+
+/*PRIMERA SECCIÓN*/
+
+.inicio-section { 
     scroll-margin-top: 100px;
     margin: 30px 15px ;
     padding: 10px;
     height: 270px;
 }
 
+/*DEMÁS SECCIONES*/
+
+.sectionnn {
+    position: relative;
+    scroll-margin-top: 100px;
+    margin: 30px 15px ;
+    padding: 10px;
+    background-color: #FAEEEA;
+    height: 270px;
+    border-radius: 10px;
+}
+
+.sectionnn div {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.sectionnn a{
+    text-decoration: underline;
+    color: #84351F;
+    font-size: 19px;
+}
+
+.sectionnn a:hover {
+    color: #3A170E;
+}
+
+/*----SECCIÓN DE CATÁLOGO----*/
+
+/*TÍTULO*/
+
 .title-section {
     padding: 30px;
 }
+
+/*HERO SECTION*/
 
 .hero-section {
     margin: 20px 50px;
@@ -155,6 +205,8 @@ aside a:hover {
     text-align: center;
 }
 
+/*CUADRÍCULA DE PRODUCTOS*/
+
 .product-section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -174,33 +226,4 @@ aside a:hover {
 
 .producto img {
     width: 300px;
-}
-.sectionnn {
-    position: relative;
-    scroll-margin-top: 100px;
-    margin: 30px 15px ;
-    padding: 10px;
-    background-color: #FAEEEA;
-    height: 270px;
-    border-radius: 10px;
-}
-
-h1 {
-    text-align: center;
-}
-
-.sectionnn div {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-}
-
-.sectionnn a{
-    text-decoration: underline;
-    color: #84351F;
-    font-size: 19px;
-}
-
-.sectionnn a:hover {
-    color: #3A170E;
 }
