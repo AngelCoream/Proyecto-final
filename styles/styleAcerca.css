@@ -1,0 +1,9 @@
+
+.seccion-primera {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.imagen-primera {
+    width: 500px;
+}

@@ -2,92 +2,142 @@
 
 <html>
 
+    <!--HEAD-->
+
     <head lang="es">
+
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>Mi página</title>
-        <link rel="icon" href="logo.png" type="image/png">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap">
+        <link rel="icon" href="isotipo.png" type="image/png">
+
+        <!--CSS-->
+
+        <link rel="stylesheet" href="styles/styleGlobal.css">
+        <link rel="stylesheet" href="styles/styleIndex.css">
+        
+        <!--FUENTES-->
+
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap">
+
     </head>
+
+    <!--BODY-->
 
     <body>
 
+        <!--HEADER-->
+
         <header>
-            <div class="header-inner">
-                
-                <div class="logo">
-                    <a href="index.html"><img src="logo.png" alt="Logo"></a>
-                    <h2>texto</h2>
-                </div>
-                
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="productos.html">Productos</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="acerca.html">Acerca</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                    </ul>
-                </nav>
-            </div>
+            
+            <!--LOGOTIPO-->
+
+            <a href="index.html"><img src="logotipo.png" alt="Logo"></a>
+            
+            <!--NAVEGACIÓN-->
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="acerca.html">Acerca</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+
         </header>
+
+        <!--PRINCIPAL-->
 
         <main>
             
+            <!--SIDEBAR-->
+
             <section class="sidebar">
+
                 <aside data-tag="aside">
+
                     <h2>Categorías</h2>
+
                     <ul>
+
                         <li><a href="#inicio">Todos</a></li>
                         <li><a href="#materiales">Materiales</a></li>
                         <li><a href="#estilos">Estilos</a></li>
                         <li><a href="#puntos-de-venta">Puntos de venta</a></li>
                         <li><a href="#productos">Productos</a></li>
+
                     </ul>
-                    <!-- <span class="aside-tag">Sidebar</span> -->
+                    
                 </aside>
+
             </section>
 
-            <section class="inicio-section" id="inicio">
-                <h1>NOMBRE DE LA PÁGINA</h1>
+            <!--SECCIONES-->
+        
+            <section class="inicio-section" id="inicio"> <!--PRINCIPAL-->
+
+                <h1>BIENVENIDOS</h1>
+
                 <p>Soy el párrafo de una sección, soy un ejemplo, no me gusta, pero lo soy. Tengo que ocupar espacio. Funcionaría mejor unas imagenes pero aquí estoy haciéndolo yo. Es un poco triste. </p>
                 <p>Aquí iría información general sobre la empresa.</p>
+
             </section>
 
-            <section class="sectionnn" id="materiales">
+            <section class="sections" id="materiales"> <!--MATERIALES-->
+
                 <h1>Materiales</h1>
+
                 <p>Disfruta de una perfecta selección para tu piel.</p>
                 <p>Aquí se hablaría de los tipos de materia prima que usamos y sus proveedores.</p>
+
                 <div><a href="seccionesInicio/materiales.html">ver más</a></div>
+
             </section>
 
-            <section class="sectionnn" id="estilos">
+            <section class="sections" id="estilos"> <!--DISEÑOS-->
+
                 <h1>Estilos</h1>
+
                 <p>Verte a la moda ayuda en tu autoestima.</p>
                 <p>Aquí se hablaría de los estilos que manejamos, como de estilos para niños, niñas, hombres, mujeres, etc.</p>
+
                 <div><a href="seccionesInicio/estilos.html">ver más</a></div>
+
             </section>
 
-            <section class="sectionnn" id="puntos-de-venta">
+            <section class="sections" id="puntos-de-venta"> <!--PUNTOS DE VENTA-->
+
                 <h1>Puntos de venta</h1>
+
                 <p>Donde encuentras comodidad y moda.</p>
                 <p>Aquí se hablaría de los productos.</p>
+
                 <div><a href="seccionesInicio/puntos-de-venta.html">ver más</a></div>
+
             </section>
 
-            <section class="sectionnn" id="productos">
+            <section class="sections" id="productos"> <!--PRODUCTOS-->
+
                 <h1>Productos</h1>
+
                 <p>Escoge la felicidad. </p>
                 <p>Aquí se hablaría de los productos.</p>
+
                 <div><a href="productos.html">ver catálogo</a></div>
+
             </section>
 
-            <section class="sectionnn">
+            <section class="sections"> <!--EJEMPLO-->
+
                 <h1>Soy una sección más</h1>
+
                 <p>Soy el párrafo de una sección, soy un ejemplo, no me gusta, pero lo soy. Tengo que ocupar espacio. Funcionaría mejor unas imagenes pero aquí estoy haciéndolo yo. Es un poco triste. </p>
                 <p>Aquí se hablaría de los productos.</p>
+
             </section>
 
         </main>

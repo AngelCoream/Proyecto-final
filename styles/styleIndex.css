@@ -1,0 +1,78 @@
+
+/*CUERPO*/
+
+body {
+    margin-left: 300px;
+
+}
+
+/*BARRA LATERAL*/
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 300px;
+    height: 100%;
+}
+
+aside {
+    margin: 0 20px;
+    padding: 20px;
+    height: 85%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    
+}
+
+aside li {
+    list-style: none;
+    padding: 5px;
+}
+
+
+aside a {
+    color: #004196;
+    text-decoration: none;
+}
+
+aside a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+/*PRIMERA SECCIÓN*/
+
+.inicio-section { 
+    scroll-margin-top: 100px;
+    margin: 30px 15px ;
+    padding: 10px;
+    height: 270px;
+}
+
+/*DEMÁS SECCIONES*/
+
+.sections {
+    position: relative;
+    scroll-margin-top: 100px;
+    margin: 30px 15px ;
+    padding: 10px;
+    height: 270px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.sections div {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.sections a{
+    text-decoration: underline;
+    color: #004196;
+    font-size: 19px;
+}
+
+.sections a:hover {
+    color: #000000;
+}
